@@ -1,0 +1,254 @@
+body{
+    margin-top:5px;
+    background-color: cornsilk;
+}
+h2{
+    font-family: Garamond, serif;
+    text-align: center;
+}
+.nav{
+    width: 100%;
+    background:#473b00;
+    color: white;
+    height: 80px;
+    text-align: center;
+    opacity: .9;
+}
+ul{
+    list-style-type: none;
+    padding:0;
+    margin:0;
+    position: absolute;
+}
+ul li{
+    float: left;
+    margin-top: 20px;
+}
+ul li a{
+    width: 150px;
+    color: white;
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+a:hover{
+    opacity: 0.75;
+}
+ul li ul{
+    background: #473b00;
+}
+ul li ul li{
+    float:none;
+}
+
+ul li ul{
+    display:none;
+}
+
+ul li:hover ul{
+    display: block;
+    
+}
+
+.left{
+    float:left;
+}
+.container{
+    max-width:1200px;
+    margin:auto;
+    overflow:auto;
+}
+.gallery{
+    margin:15px 15px 15px 30px;
+    border:1px solid #ccc;
+    float:left;
+    width:350px;
+}
+.gallery img{
+    width:100%;
+    height:300px;
+}
+.desc{
+    padding:15px;
+    text-align: center;
+    background-color:#EBEBEB;
+    font-family: Garamond, serif;
+}
+
+img:hover.anime
+{
+    box-shadow: 5px 7px 10px 10px red , 15px 19px 10px 10px yellow, 25px 29px 10px 10px green;
+    width: 300px;
+    height: 350px;
+
+}
+img:hover.anime2
+{
+    box-shadow: 5px 7px 10px 10px #2D50A9, 15px 19px 10px 10px #3B8846, 25px 29px 10px 10px #7B514A;
+    width: 300px;
+    height: 350px;
+}
+img:hover.anime3
+{
+    box-shadow: 5px 7px 10px 10px #8B8F85, 15px 19px 10px 10px #13191F, 25px 29px 10px 10px #314A4F;
+    width: 300px;
+    height: 350px;
+}
+img:hover.anime4
+{
+    box-shadow: 5px 7px 10px 10px #833F5C, 15px 19px 10px 10px #BABCB5, 25px 29px 10px 10px #9F7D67;
+    width: 300px;
+    height: 350px;
+}
+img:hover.anime5
+{
+    box-shadow: 5px 7px 10px 10px #F0DD96, 15px 19px 10px 10px #5FD1DF, 25px 29px 10px 10px #96B091;
+    width: 300px;
+    height: 350px;
+}
+img:hover.anime6
+{
+    box-shadow: 5px 7px 10px 10px #2A2A2A, 15px 19px 10px 10px #B82B30, 25px 29px 10px 10px #535662;
+    width: 300px;
+    height: 350px;
+}
+img:hover.immersion
+{
+    border: 7px groove;
+    border-color: #707070;
+    box-shadow: 10px 10px #E0E0E0;
+}
+img:hover.immersion2
+{
+    border: 7px groove;
+    border-color: #3B2C23;
+    box-shadow: 10px 10px #11207C;
+}
+img:hover.immersion3
+{
+    border: 7px groove;
+    border-color: #6F6B68;
+    box-shadow: 10px 10px #311F1C;
+}
+img:hover.immersion4
+{
+    border: 7px groove;
+    border-color: #0B2328;
+    box-shadow: 10px 10px #2F4932;
+}
+img:hover.immersion5
+{
+    border: 7px groove;
+    border-color: #9F7652;
+    box-shadow: 10px 10px #1A271E;
+}
+img:hover.immersion6
+{
+    border: 7px groove;
+    border-color: #445356;
+    box-shadow: 10px 10px #2C302A;
+}
+img:hover.family
+{
+    border: 7px double darkblue;
+    box-shadow: 10px 10px #C2DAE9;
+}
+img:hover.family2
+{
+    border: 7px double #172727;
+    box-shadow: 10px 10px #707956;
+}
+img:hover.family3
+{
+    border: 7px double #6F2619;
+    box-shadow: 10px 10px #B85D13;
+}
+img:hover.family4
+{
+    border: 7px double #443F3F;
+    box-shadow: 10px 10px #B6482F;
+}
+img:hover.family5
+{
+    border: 7px double #2E0F01;
+    box-shadow: 10px 10px #9A8276;
+}
+img:hover.family6
+{
+    border: 7px double #0F0915;
+    box-shadow: 10px 10px #786F66;
+}
+img:hover.family7
+{
+    border: 7px double #7D4924;
+    box-shadow: 10px 10px #AC826C;
+}
+img:hover.Hs
+{
+    border: 7px inset #807A3C;
+    box-shadow: 10px 10px #393C3E;
+}
+img:hover.Hs1
+{
+    border: 7px inset #807977;
+    box-shadow: 10px 10px #4E1C16;
+}
+img:hover.Hs2
+{
+    border: 7px inset #543B2B;
+    box-shadow: 10px 10px #C7C3C6;
+}
+img:hover.Hs3
+{
+    border: 7px inset #C6C0B4;
+    box-shadow: 10px 10px #631F1F;
+}
+img:hover.Hs4
+{
+    border: 7px inset #152B2D;
+    box-shadow: 10px 10px #E8C39C;
+}
+img:hover.Hs5
+{
+    border: 7px inset #7D7869;
+    box-shadow: 10px 10px #54544F;
+}
+img:hover.Hs6
+{
+    border: 7px inset #A66C3D;
+    box-shadow: 10px 10px #9C8B73;
+}
+img:hover.college
+{
+    border: 7px ridge #935950;
+    box-shadow: 10px 10px #475256;
+}
+img:hover.college2
+{
+    border: 7px ridge #8E8E96;
+    box-shadow: 10px 10px #4E4437;
+}
+img:hover.college3
+{
+    border: 7px ridge #606270;
+    box-shadow: 10px 10px #15110E;
+}
+img:hover.college4
+{
+    border: 7px ridge #DCDFDC;
+    box-shadow: 10px 10px #493B3D;
+}
+
+
+
+
+
+
+
+
+

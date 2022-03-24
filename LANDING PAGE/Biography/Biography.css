@@ -1,0 +1,155 @@
+body{
+    margin-top:5px;
+    background-color:cornsilk;
+    font-family: Verdana, Geneva, Tahoma, Sans-serif;
+    color: black;
+}
+blockquote { 
+    text-align: justify;
+    font-size: 18px;
+    text-indent: 70px;
+    line-height: 30px;
+    word-spacing: 5px;
+}
+
+h1 {
+    font-family: Georgia, 'times New Roman', Times, serif;
+    font-size: 2em;
+    letter-spacing: 1.5px;
+    word-spacing: 20px;
+    text-transform: uppercase;
+    text-align: left;
+    color: #73501a;
+    text-shadow: 5px 5px 3px grey;
+    margin-left: 10px;
+    
+}
+
+
+.Age{
+    font-family: Georgia, times New Roman, Times, serif;
+    text-decoration: underline;
+    font-size: 35px;
+    letter-spacing: 1.5px;
+    word-spacing: 4px;
+    text-transform: uppercase;
+    text-align: center;
+}
+h3{
+    font-family: Papyrus, fantasy;
+    font-size: 1.5;
+    text-align: center;
+    word-spacing: 2px;
+}
+
+.nav{
+    width: 100%;
+    background:#473b00;
+    color: white;
+    height: 70px;
+    opacity: .9;
+}
+ul{
+    list-style-type: none;
+    padding:0;
+    margin:0;
+    position: absolute;
+}
+ul li{
+    float: left;
+    margin-top: 15px;
+}
+ul li a{
+    width: 150px;
+    color: white;
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+a:hover {
+    opacity: 0.75;
+}
+ul li ul{
+    background: #473b00;
+}
+ul li ul li{
+    float:none;
+}
+
+ul li ul{
+    display:none;
+}
+
+ul li:hover ul{
+    display: block;
+}
+
+img
+{
+    margin-left: 55px;
+    width: 200px;
+    height: 300px;
+    border-radius: 30%;
+}
+
+img:hover.child
+{
+    box-shadow: 20px 20px #A0BA5D;
+    width : 150px;
+    height: 250px;
+    border-top-color:#4A5333 ;
+    border-left-color:#4A5333 ;
+    border-top-style: ridge ;
+    border-left-style: ridge ;
+}
+img:hover.teen
+{
+    box-shadow:20px 20px #ff8204, 30px 30px #A0BA5D;
+    width : 150px;
+    height: 250px;
+    border-top-color:#CE6701 ;
+    border-left-color:#CE6701 ;
+    border-top-style: ridge ;
+    border-left-style: ridge ;
+}
+img:hover.college
+{
+    box-shadow: 20px 20px #9E6B9E, 30px 30px #ff8204, 40px 40px #A0BA5D;
+    width : 150px;
+    height: 250px;
+    border-top-color:#692769 ;
+    border-left-color:#692769 ;
+    border-top-style: ridge ;
+    border-left-style: ridge ;   
+}
+
+h4{
+    padding-left: 50px;
+    font-variant: small-caps;
+    font-size: 30px;
+}
+
+a:link.text{
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+a:visited.text{
+    text-decoration: none;
+    color: #473b00;
+}
+a:hover.text{
+    text-decoration: none;
+    opacity: 0.75;
+    font-size: 70px;
+}
+a:active.text{
+    text-decoration: none;
+    font-size: 40px;
+}
+
+
