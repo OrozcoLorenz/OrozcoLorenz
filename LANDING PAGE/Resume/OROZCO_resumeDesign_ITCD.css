@@ -1,0 +1,82 @@
+h3 {
+    font-family: Georgia, 'times New Roman', Times, serif;
+    letter-spacing: .5px;
+    word-spacing: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+body
+{
+    background-color: cornsilk;
+    font-family: Verdana, Geneva, Tahoma, Sans-serif;
+    color: black;
+}
+.description
+{
+    font-family: Georgia, 'times New Roman', Times, serif;
+    background-color: #473b00;
+    color:white;
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+p
+{
+    font-family: Arial, Geneva, Tahoma, Sans-serif;
+    text-align: justify;
+}
+#image
+{
+    border-radius: 50%;
+}
+.container {
+    width: 80%;
+    background-color: grey;
+    margin-left: 100px;
+    
+}
+  
+.skills {
+    text-align: right;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    
+}
+  
+.java {width: 80%; background-color: #04AA6D;}
+.c {width: 70%; background-color: #2196F3;}
+.msoffice{width: 75%; background-color: #F80000;}
+.computer{width: 65%; background-color: #f8d300;}
+.sql{width: 70%; background-color: #f88400;}
+  
+.skill
+{
+    list-style-type: none;
+    margin-left: 100px;
+    font-family: 'Times New Roman', Times, Georgia, serif;
+    font-weight: bold;
+}
+.education
+{
+    list-style-type: none;
+    line-height: 50px;
+}
+.b
+{
+      font-weight: bold;
+      line-height: 50px;
+      font-family:'Times New Roman', Times, Georgia, serif;
+      font-size: 30px;
+}
+.image
+{
+    width: 150px; 
+    height: 150px;
+    margin-left: 125px;
+    border-radius: 50px;
+
+}
+
+  
