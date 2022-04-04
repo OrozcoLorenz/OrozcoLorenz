@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Lorenz Aaron M. Orozco">
+    <title>Future Travel</title>
+    <style type="text/css">
+    </style>
+    <link rel="icon" href="Images/Airplane.png" type="image/x-icon">
+    <script language="JavaScript">
+        function writeText(txt){
+            document.getElementById("desc").innerHTML=txt;
+    }
+        function dissolveText(txt){
+            document.getElementById("desc").innerHTML=txt;
+        }
+    </script>
+</head>
+<body>
+    <link rel="stylesheet" type="text/css" href="FutureTravel.css">
+    <!--OROZCO, LORENZ-->
+    <div class="nav">
+        <ul>
+            <li><a href="../LandingPage.html">Home</a></li>   
+            <li><a href="../Biography/BioHome.html" title="About me">About me</a>
+                <ul>
+                    <li><a href="../Biography/Childhood.html" title="Childhood" target="_blank">Childhood</a></li>
+                    <li><a href="../Biography/Teenage.html" title="Teenager" target="_blank">Teenager</a></li>
+                    <li><a href="../Biography/College.html" title="College" target="_blank">College</a></li>
+                </ul>
+            </li>
+            <li><a href="../Interest/OROZCO_INTEREST.html">Interest</a></li>
+            <li><a href="../Resume/OROZCO_RESUME_ITCD.html" target="nextWindow">Resume</a></li>
+            <li><a href="../PhotoGallery/PhotoGallery.html">PhotoGallery</a>
+                <ul>
+                    <li><a href="../PhotoGallery/College.html">College</a></li>
+                    <li><a href="../PhotoGallery/HighSchool.html">High School</a></li>
+                    <li><a href="../PhotoGallery/Family.html">Family</a></li>
+                    <li><a href="../PhotoGallery/Immersion.html">Immersion</a></li>
+                    <li><a href="../PhotoGallery/Anime.html">Anime</a></li>
+                </ul>
+            </li>
+            <li><a href="../MyBeat/MyBeat.html">My Beat</a></li>
+            <li><a href="../MyFilm/MyFilm.html">My Film</a></li>
+            <li><a href="#">More..</a>
+                <ul>
+                    <li><a href="FutureTravel.html">Future Travel</a></li>
+                    <li><a href="../BucketList/BucketList.html">Bucket List</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <div align="center">
+        <h1 id="title">Future Travels</h1>
+        <img src="Images/CollageTravel2.jpg" alt="Travel Picture" usemap="#Travel">
+        <map name="Travel">
+            <area shape="rect" coords="10,10,249,165" href="Sydney.html" alt="Sydney"
+            onmouseover="writeText('Sydney');"
+            onmouseout="dissolveText('')">
+
+            <area shape="rect" coords="255,10,493,165" href="Japan.html" alt="Japan"
+            onmouseover="writeText('Japan');"
+            onmouseout="dissolveText('')">
+
+            <area shape="rect" coords="8,171,493,329" href="France.html" alt="France"
+            onmouseover="writeText('France');"
+            onmouseout="dissolveText('')">
+
+            <area shape="rect" coords="9,336,248,491" href="Maldives.html" alt="Maldives"
+            onmouseover="writeText('Maldives');"
+            onmouseout="dissolveText('')">
+
+            <area shape="rect" coords="254,336,490,492" href="Philippines.html" alt="Philippines"
+            onmouseover="writeText('Philippines');"
+            onmouseout="dissolveText('')">
+
+        </map>
+        <h3 id="desc"></h3>
+    </div>
+    
+    
+</body>
+</html>
